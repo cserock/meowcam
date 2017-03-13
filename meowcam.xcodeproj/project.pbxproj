@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A4D94BDCD7E3B77BC87867 /* libPods-meowcam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD24C511F062DCDF2F7CD20 /* libPods-meowcam.a */; };
+		CF08505D1E70DF23003222B6 /* camera-shutter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF08505C1E70DF23003222B6 /* camera-shutter.mp3 */; };
+		CF24A9161E67E81A0019051F /* CameraFocusSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24A9151E67E81A0019051F /* CameraFocusSquare.m */; };
+		CF24A9341E680ED60019051F /* btn-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9191E680ED60019051F /* btn-camera@2x.png */; };
+		CF24A9351E680ED60019051F /* btn-camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91A1E680ED60019051F /* btn-camera@3x.png */; };
+		CF24A9361E680ED60019051F /* btn-change.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91B1E680ED60019051F /* btn-change.png */; };
+		CF24A9371E680ED60019051F /* btn-change@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91C1E680ED60019051F /* btn-change@2x.png */; };
+		CF24A9381E680ED60019051F /* btn-change@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91D1E680ED60019051F /* btn-change@3x.png */; };
+		CF24A9391E680ED60019051F /* btn-next@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91E1E680ED60019051F /* btn-next@1x.png */; };
+		CF24A93A1E680ED60019051F /* btn-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A91F1E680ED60019051F /* btn-next@2x.png */; };
+		CF24A93B1E680ED60019051F /* btn-next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9201E680ED60019051F /* btn-next@3x.png */; };
+		CF24A93C1E680ED60019051F /* btn-pause@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9211E680ED60019051F /* btn-pause@1x.png */; };
+		CF24A93D1E680ED60019051F /* btn-pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9221E680ED60019051F /* btn-pause@2x.png */; };
+		CF24A93E1E680ED60019051F /* btn-pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9231E680ED60019051F /* btn-pause@3x.png */; };
+		CF24A93F1E680ED60019051F /* btn-play@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9241E680ED60019051F /* btn-play@1x.png */; };
+		CF24A9401E680ED60019051F /* btn-play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9251E680ED60019051F /* btn-play@2x.png */; };
+		CF24A9411E680ED60019051F /* btn-play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9261E680ED60019051F /* btn-play@3x.png */; };
+		CF24A9421E680ED60019051F /* btn-prev@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9271E680ED60019051F /* btn-prev@1x.png */; };
+		CF24A9431E680ED60019051F /* btn-prev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9281E680ED60019051F /* btn-prev@2x.png */; };
+		CF24A9441E680ED60019051F /* btn-prev@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A9291E680ED60019051F /* btn-prev@3x.png */; };
+		CF24A9451E680ED60019051F /* btn-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92A1E680ED60019051F /* btn-setting.png */; };
+		CF24A9461E680ED60019051F /* btn-setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92B1E680ED60019051F /* btn-setting@2x.png */; };
+		CF24A9471E680ED60019051F /* btn-setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92C1E680ED60019051F /* btn-setting@3x.png */; };
+		CF24A9481E680ED60019051F /* btn-shot.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92D1E680ED60019051F /* btn-shot.png */; };
+		CF24A9491E680ED60019051F /* btn-shot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92E1E680ED60019051F /* btn-shot@2x.png */; };
+		CF24A94A1E680ED60019051F /* btn-shot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24A92F1E680ED60019051F /* btn-shot@3x.png */; };
+		CF44ED551E5E9B5500BC1D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44ED541E5E9B5500BC1D87 /* main.m */; };
+		CF44ED581E5E9B5500BC1D87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44ED571E5E9B5500BC1D87 /* AppDelegate.m */; };
+		CF44ED5B1E5E9B5500BC1D87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44ED5A1E5E9B5500BC1D87 /* ViewController.m */; };
+		CF44ED5E1E5E9B5500BC1D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF44ED5C1E5E9B5500BC1D87 /* Main.storyboard */; };
+		CF44ED601E5E9B5500BC1D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF44ED5F1E5E9B5500BC1D87 /* Assets.xcassets */; };
+		CF44ED631E5E9B5500BC1D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF44ED611E5E9B5500BC1D87 /* LaunchScreen.storyboard */; };
+		CF44ED851E5EC76600BC1D87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF44ED841E5EC76600BC1D87 /* AVFoundation.framework */; };
+		CF44ED871E5EC77100BC1D87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF44ED861E5EC77100BC1D87 /* AudioToolbox.framework */; };
+		CF44ED9E1E5ED45700BC1D87 /* HBFocusUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44ED9D1E5ED45700BC1D87 /* HBFocusUtils.m */; };
+		CF5C4E9E1E724A0300B04F18 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5C4E9B1E724A0300B04F18 /* logo.png */; };
+		CF5C4E9F1E724A0300B04F18 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5C4E9C1E724A0300B04F18 /* logo@2x.png */; };
+		CF5C4EA01E724A0300B04F18 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5C4E9D1E724A0300B04F18 /* logo@3x.png */; };
+		CF5C4EA31E724E0600B04F18 /* LaunchScreenKo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5C4EA11E724E0600B04F18 /* LaunchScreenKo.storyboard */; };
+		CF6502E01E63FDE200239F35 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6502DF1E63FDE200239F35 /* HomeController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF6502E31E6419D300239F35 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6502E21E6419D300239F35 /* PhotoController.m */; };
+		CF83EE281E6FEB0300468B69 /* hissing-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE011E6FEB0300468B69 /* hissing-01.mp3 */; };
+		CF83EE291E6FEB0300468B69 /* meow-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE021E6FEB0300468B69 /* meow-01.mp3 */; };
+		CF83EE2A1E6FEB0300468B69 /* meow-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE031E6FEB0300468B69 /* meow-02.mp3 */; };
+		CF83EE2B1E6FEB0300468B69 /* meow-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE041E6FEB0300468B69 /* meow-03.mp3 */; };
+		CF83EE2C1E6FEB0300468B69 /* meow-04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE051E6FEB0300468B69 /* meow-04.mp3 */; };
+		CF83EE2D1E6FEB0300468B69 /* meow-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE061E6FEB0300468B69 /* meow-05.mp3 */; };
+		CF83EE2E1E6FEB0300468B69 /* meow-06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE071E6FEB0300468B69 /* meow-06.mp3 */; };
+		CF83EE2F1E6FEB0300468B69 /* meow-07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE081E6FEB0300468B69 /* meow-07.mp3 */; };
+		CF83EE301E6FEB0300468B69 /* meow-08.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE091E6FEB0300468B69 /* meow-08.mp3 */; };
+		CF83EE311E6FEB0300468B69 /* meow-09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0A1E6FEB0300468B69 /* meow-09.mp3 */; };
+		CF83EE321E6FEB0300468B69 /* meow-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0B1E6FEB0300468B69 /* meow-10.mp3 */; };
+		CF83EE331E6FEB0300468B69 /* meow-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0C1E6FEB0300468B69 /* meow-11.mp3 */; };
+		CF83EE341E6FEB0300468B69 /* meow-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0D1E6FEB0300468B69 /* meow-12.mp3 */; };
+		CF83EE351E6FEB0300468B69 /* meow-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0E1E6FEB0300468B69 /* meow-13.mp3 */; };
+		CF83EE361E6FEB0300468B69 /* meow-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE0F1E6FEB0300468B69 /* meow-14.mp3 */; };
+		CF83EE371E6FEB0300468B69 /* meow-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE101E6FEB0300468B69 /* meow-15.mp3 */; };
+		CF83EE381E6FEB0300468B69 /* meow-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE111E6FEB0300468B69 /* meow-16.mp3 */; };
+		CF83EE391E6FEB0300468B69 /* meow-17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE121E6FEB0300468B69 /* meow-17.mp3 */; };
+		CF83EE3A1E6FEB0300468B69 /* meow-18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE131E6FEB0300468B69 /* meow-18.mp3 */; };
+		CF83EE3B1E6FEB0300468B69 /* meow-19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE141E6FEB0300468B69 /* meow-19.mp3 */; };
+		CF83EE3C1E6FEB0300468B69 /* meow-20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE151E6FEB0300468B69 /* meow-20.mp3 */; };
+		CF83EE3D1E6FEB0300468B69 /* meow-21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE161E6FEB0300468B69 /* meow-21.mp3 */; };
+		CF83EE3E1E6FEB0300468B69 /* meow-22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE171E6FEB0300468B69 /* meow-22.mp3 */; };
+		CF83EE3F1E6FEB0300468B69 /* meow-23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE181E6FEB0300468B69 /* meow-23.mp3 */; };
+		CF83EE401E6FEB0300468B69 /* meow-24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE191E6FEB0300468B69 /* meow-24.mp3 */; };
+		CF83EE411E6FEB0300468B69 /* meow-25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1A1E6FEB0300468B69 /* meow-25.mp3 */; };
+		CF83EE421E6FEB0300468B69 /* meow-26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1B1E6FEB0300468B69 /* meow-26.mp3 */; };
+		CF83EE431E6FEB0300468B69 /* meow-27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1C1E6FEB0300468B69 /* meow-27.mp3 */; };
+		CF83EE441E6FEB0300468B69 /* meow-28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1D1E6FEB0300468B69 /* meow-28.mp3 */; };
+		CF83EE451E6FEB0300468B69 /* meow-29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1E1E6FEB0300468B69 /* meow-29.mp3 */; };
+		CF83EE461E6FEB0300468B69 /* purr-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE1F1E6FEB0300468B69 /* purr-01.mp3 */; };
+		CF83EE471E6FEB0300468B69 /* purr-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE201E6FEB0300468B69 /* purr-02.mp3 */; };
+		CF83EE481E6FEB0300468B69 /* purr-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE211E6FEB0300468B69 /* purr-03.mp3 */; };
+		CF83EE491E6FEB0300468B69 /* purr-04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE221E6FEB0300468B69 /* purr-04.mp3 */; };
+		CF83EE4A1E6FEB0300468B69 /* purr-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE231E6FEB0300468B69 /* purr-05.mp3 */; };
+		CF83EE4B1E6FEB0300468B69 /* purr-06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE241E6FEB0300468B69 /* purr-06.mp3 */; };
+		CF83EE4C1E6FEB0300468B69 /* purr-07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE251E6FEB0300468B69 /* purr-07.mp3 */; };
+		CF83EE4D1E6FEB0300468B69 /* song-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE261E6FEB0300468B69 /* song-01.mp3 */; };
+		CF83EE4E1E6FEB0300468B69 /* song-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE271E6FEB0300468B69 /* song-02.mp3 */; };
+		CFAC1E0D1E68FCE100236B58 /* btn-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E0C1E68FCE100236B58 /* btn-camera.png */; };
+		CFAC1E101E69015700236B58 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAC1E0F1E69015700236B58 /* SettingController.m */; };
+		CFAC1E131E6902E600236B58 /* InAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAC1E121E6902E600236B58 /* InAppPurchase.m */; };
+		CFAC1E151E692C9C00236B58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E141E692C9C00236B58 /* GoogleService-Info.plist */; };
+		CFAC1E201E694C3D00236B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E171E694C3D00236B58 /* InfoPlist.strings */; };
+		CFAC1E211E694C3D00236B58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E191E694C3D00236B58 /* Localizable.strings */; };
+		CFAC1E221E694C3D00236B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E1C1E694C3D00236B58 /* InfoPlist.strings */; };
+		CFAC1E231E694C3D00236B58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAC1E1E1E694C3D00236B58 /* Localizable.strings */; };
+		CFBC4B371E6D3BC600BFFE8A /* RemoteConfigDafaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBC4B361E6D3BC600BFFE8A /* RemoteConfigDafaults.plist */; };
+		CFBC4B391E6D50FC00BFFE8A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBC4B381E6D50FC00BFFE8A /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DD24C511F062DCDF2F7CD20 /* libPods-meowcam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meowcam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BFA9402A954FC2C709B677 /* Pods-meowcam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowcam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meowcam/Pods-meowcam.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D76A056DEE593C14911293 /* Pods-meowcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowcam.release.xcconfig"; path = "Pods/Target Support Files/Pods-meowcam/Pods-meowcam.release.xcconfig"; sourceTree = "<group>"; };
+		CF08505C1E70DF23003222B6 /* camera-shutter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "camera-shutter.mp3"; sourceTree = "<group>"; };
+		CF08505E1E715954003222B6 /* meowcam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meowcam-Prefix.pch"; sourceTree = "<group>"; };
+		CF24A9141E67E8010019051F /* CameraFocusSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraFocusSquare.h; sourceTree = "<group>"; };
+		CF24A9151E67E81A0019051F /* CameraFocusSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocusSquare.m; sourceTree = "<group>"; };
+		CF24A9191E680ED60019051F /* btn-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-camera@2x.png"; sourceTree = "<group>"; };
+		CF24A91A1E680ED60019051F /* btn-camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-camera@3x.png"; sourceTree = "<group>"; };
+		CF24A91B1E680ED60019051F /* btn-change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-change.png"; sourceTree = "<group>"; };
+		CF24A91C1E680ED60019051F /* btn-change@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-change@2x.png"; sourceTree = "<group>"; };
+		CF24A91D1E680ED60019051F /* btn-change@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-change@3x.png"; sourceTree = "<group>"; };
+		CF24A91E1E680ED60019051F /* btn-next@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-next@1x.png"; sourceTree = "<group>"; };
+		CF24A91F1E680ED60019051F /* btn-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-next@2x.png"; sourceTree = "<group>"; };
+		CF24A9201E680ED60019051F /* btn-next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-next@3x.png"; sourceTree = "<group>"; };
+		CF24A9211E680ED60019051F /* btn-pause@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-pause@1x.png"; sourceTree = "<group>"; };
+		CF24A9221E680ED60019051F /* btn-pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-pause@2x.png"; sourceTree = "<group>"; };
+		CF24A9231E680ED60019051F /* btn-pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-pause@3x.png"; sourceTree = "<group>"; };
+		CF24A9241E680ED60019051F /* btn-play@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-play@1x.png"; sourceTree = "<group>"; };
+		CF24A9251E680ED60019051F /* btn-play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-play@2x.png"; sourceTree = "<group>"; };
+		CF24A9261E680ED60019051F /* btn-play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-play@3x.png"; sourceTree = "<group>"; };
+		CF24A9271E680ED60019051F /* btn-prev@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-prev@1x.png"; sourceTree = "<group>"; };
+		CF24A9281E680ED60019051F /* btn-prev@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-prev@2x.png"; sourceTree = "<group>"; };
+		CF24A9291E680ED60019051F /* btn-prev@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-prev@3x.png"; sourceTree = "<group>"; };
+		CF24A92A1E680ED60019051F /* btn-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-setting.png"; sourceTree = "<group>"; };
+		CF24A92B1E680ED60019051F /* btn-setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-setting@2x.png"; sourceTree = "<group>"; };
+		CF24A92C1E680ED60019051F /* btn-setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-setting@3x.png"; sourceTree = "<group>"; };
+		CF24A92D1E680ED60019051F /* btn-shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-shot.png"; sourceTree = "<group>"; };
+		CF24A92E1E680ED60019051F /* btn-shot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-shot@2x.png"; sourceTree = "<group>"; };
+		CF24A92F1E680ED60019051F /* btn-shot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-shot@3x.png"; sourceTree = "<group>"; };
+		CF44ED501E5E9B5500BC1D87 /* meowcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meowcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF44ED541E5E9B5500BC1D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF44ED561E5E9B5500BC1D87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF44ED571E5E9B5500BC1D87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF44ED591E5E9B5500BC1D87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF44ED5A1E5E9B5500BC1D87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF44ED5D1E5E9B5500BC1D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF44ED5F1E5E9B5500BC1D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF44ED621E5E9B5500BC1D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF44ED641E5E9B5500BC1D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF44ED841E5EC76600BC1D87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF44ED861E5EC77100BC1D87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF44ED9C1E5ED41400BC1D87 /* HBFocusUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBFocusUtils.h; sourceTree = "<group>"; };
+		CF44ED9D1E5ED45700BC1D87 /* HBFocusUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFocusUtils.m; sourceTree = "<group>"; };
+		CF5C4E9B1E724A0300B04F18 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CF5C4E9C1E724A0300B04F18 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		CF5C4E9D1E724A0300B04F18 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		CF5C4EA21E724E0600B04F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenKo.storyboard; sourceTree = "<group>"; };
+		CF6502DE1E63FDE200239F35 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		CF6502DF1E63FDE200239F35 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		CF6502E11E6419D300239F35 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		CF6502E21E6419D300239F35 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		CF83EE011E6FEB0300468B69 /* hissing-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hissing-01.mp3"; sourceTree = "<group>"; };
+		CF83EE021E6FEB0300468B69 /* meow-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-01.mp3"; sourceTree = "<group>"; };
+		CF83EE031E6FEB0300468B69 /* meow-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-02.mp3"; sourceTree = "<group>"; };
+		CF83EE041E6FEB0300468B69 /* meow-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-03.mp3"; sourceTree = "<group>"; };
+		CF83EE051E6FEB0300468B69 /* meow-04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-04.mp3"; sourceTree = "<group>"; };
+		CF83EE061E6FEB0300468B69 /* meow-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-05.mp3"; sourceTree = "<group>"; };
+		CF83EE071E6FEB0300468B69 /* meow-06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-06.mp3"; sourceTree = "<group>"; };
+		CF83EE081E6FEB0300468B69 /* meow-07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-07.mp3"; sourceTree = "<group>"; };
+		CF83EE091E6FEB0300468B69 /* meow-08.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-08.mp3"; sourceTree = "<group>"; };
+		CF83EE0A1E6FEB0300468B69 /* meow-09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-09.mp3"; sourceTree = "<group>"; };
+		CF83EE0B1E6FEB0300468B69 /* meow-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-10.mp3"; sourceTree = "<group>"; };
+		CF83EE0C1E6FEB0300468B69 /* meow-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-11.mp3"; sourceTree = "<group>"; };
+		CF83EE0D1E6FEB0300468B69 /* meow-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-12.mp3"; sourceTree = "<group>"; };
+		CF83EE0E1E6FEB0300468B69 /* meow-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-13.mp3"; sourceTree = "<group>"; };
+		CF83EE0F1E6FEB0300468B69 /* meow-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-14.mp3"; sourceTree = "<group>"; };
+		CF83EE101E6FEB0300468B69 /* meow-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-15.mp3"; sourceTree = "<group>"; };
+		CF83EE111E6FEB0300468B69 /* meow-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-16.mp3"; sourceTree = "<group>"; };
+		CF83EE121E6FEB0300468B69 /* meow-17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-17.mp3"; sourceTree = "<group>"; };
+		CF83EE131E6FEB0300468B69 /* meow-18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-18.mp3"; sourceTree = "<group>"; };
+		CF83EE141E6FEB0300468B69 /* meow-19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-19.mp3"; sourceTree = "<group>"; };
+		CF83EE151E6FEB0300468B69 /* meow-20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-20.mp3"; sourceTree = "<group>"; };
+		CF83EE161E6FEB0300468B69 /* meow-21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-21.mp3"; sourceTree = "<group>"; };
+		CF83EE171E6FEB0300468B69 /* meow-22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-22.mp3"; sourceTree = "<group>"; };
+		CF83EE181E6FEB0300468B69 /* meow-23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-23.mp3"; sourceTree = "<group>"; };
+		CF83EE191E6FEB0300468B69 /* meow-24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-24.mp3"; sourceTree = "<group>"; };
+		CF83EE1A1E6FEB0300468B69 /* meow-25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-25.mp3"; sourceTree = "<group>"; };
+		CF83EE1B1E6FEB0300468B69 /* meow-26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-26.mp3"; sourceTree = "<group>"; };
+		CF83EE1C1E6FEB0300468B69 /* meow-27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-27.mp3"; sourceTree = "<group>"; };
+		CF83EE1D1E6FEB0300468B69 /* meow-28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-28.mp3"; sourceTree = "<group>"; };
+		CF83EE1E1E6FEB0300468B69 /* meow-29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-29.mp3"; sourceTree = "<group>"; };
+		CF83EE1F1E6FEB0300468B69 /* purr-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-01.mp3"; sourceTree = "<group>"; };
+		CF83EE201E6FEB0300468B69 /* purr-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-02.mp3"; sourceTree = "<group>"; };
+		CF83EE211E6FEB0300468B69 /* purr-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-03.mp3"; sourceTree = "<group>"; };
+		CF83EE221E6FEB0300468B69 /* purr-04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-04.mp3"; sourceTree = "<group>"; };
+		CF83EE231E6FEB0300468B69 /* purr-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-05.mp3"; sourceTree = "<group>"; };
+		CF83EE241E6FEB0300468B69 /* purr-06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-06.mp3"; sourceTree = "<group>"; };
+		CF83EE251E6FEB0300468B69 /* purr-07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "purr-07.mp3"; sourceTree = "<group>"; };
+		CF83EE261E6FEB0300468B69 /* song-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song-01.mp3"; sourceTree = "<group>"; };
+		CF83EE271E6FEB0300468B69 /* song-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song-02.mp3"; sourceTree = "<group>"; };
+		CF83EE541E6FF01E00468B69 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		CFAC1E0C1E68FCE100236B58 /* btn-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-camera.png"; sourceTree = "<group>"; };
+		CFAC1E0E1E69015700236B58 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		CFAC1E0F1E69015700236B58 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		CFAC1E111E6902E600236B58 /* InAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchase.h; sourceTree = "<group>"; };
+		CFAC1E121E6902E600236B58 /* InAppPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchase.m; sourceTree = "<group>"; };
+		CFAC1E141E692C9C00236B58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFAC1E181E694C3D00236B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CFAC1E1A1E694C3D00236B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		CFAC1E1D1E694C3D00236B58 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CFAC1E1F1E694C3D00236B58 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
+		CFBC4B361E6D3BC600BFFE8A /* RemoteConfigDafaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDafaults.plist; sourceTree = "<group>"; };
+		CFBC4B381E6D50FC00BFFE8A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF44ED4D1E5E9B5500BC1D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF44ED871E5EC77100BC1D87 /* AudioToolbox.framework in Frameworks */,
+				CF44ED851E5EC76600BC1D87 /* AVFoundation.framework in Frameworks */,
+				48A4D94BDCD7E3B77BC87867 /* libPods-meowcam.a in Frameworks */,
+				CFBC4B391E6D50FC00BFFE8A /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5F16A261934DD78140CCE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBC4B381E6D50FC00BFFE8A /* StoreKit.framework */,
+				CF44ED861E5EC77100BC1D87 /* AudioToolbox.framework */,
+				CF44ED841E5EC76600BC1D87 /* AVFoundation.framework */,
+				5DD24C511F062DCDF2F7CD20 /* libPods-meowcam.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46820CAAD0E6464445CC4BCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78BFA9402A954FC2C709B677 /* Pods-meowcam.debug.xcconfig */,
+				C7D76A056DEE593C14911293 /* Pods-meowcam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF24A9171E680ED60019051F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C4E9B1E724A0300B04F18 /* logo.png */,
+				CF5C4E9C1E724A0300B04F18 /* logo@2x.png */,
+				CF5C4E9D1E724A0300B04F18 /* logo@3x.png */,
+				CFAC1E0C1E68FCE100236B58 /* btn-camera.png */,
+				CF24A9191E680ED60019051F /* btn-camera@2x.png */,
+				CF24A91A1E680ED60019051F /* btn-camera@3x.png */,
+				CF24A91B1E680ED60019051F /* btn-change.png */,
+				CF24A91C1E680ED60019051F /* btn-change@2x.png */,
+				CF24A91D1E680ED60019051F /* btn-change@3x.png */,
+				CF24A91E1E680ED60019051F /* btn-next@1x.png */,
+				CF24A91F1E680ED60019051F /* btn-next@2x.png */,
+				CF24A9201E680ED60019051F /* btn-next@3x.png */,
+				CF24A9211E680ED60019051F /* btn-pause@1x.png */,
+				CF24A9221E680ED60019051F /* btn-pause@2x.png */,
+				CF24A9231E680ED60019051F /* btn-pause@3x.png */,
+				CF24A9241E680ED60019051F /* btn-play@1x.png */,
+				CF24A9251E680ED60019051F /* btn-play@2x.png */,
+				CF24A9261E680ED60019051F /* btn-play@3x.png */,
+				CF24A9271E680ED60019051F /* btn-prev@1x.png */,
+				CF24A9281E680ED60019051F /* btn-prev@2x.png */,
+				CF24A9291E680ED60019051F /* btn-prev@3x.png */,
+				CF24A92A1E680ED60019051F /* btn-setting.png */,
+				CF24A92B1E680ED60019051F /* btn-setting@2x.png */,
+				CF24A92C1E680ED60019051F /* btn-setting@3x.png */,
+				CF24A92D1E680ED60019051F /* btn-shot.png */,
+				CF24A92E1E680ED60019051F /* btn-shot@2x.png */,
+				CF24A92F1E680ED60019051F /* btn-shot@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CF44ED471E5E9B5500BC1D87 = {
+			isa = PBXGroup;
+			children = (
+				CF08505E1E715954003222B6 /* meowcam-Prefix.pch */,
+				CF44ED521E5E9B5500BC1D87 /* meowcam */,
+				CF44ED511E5E9B5500BC1D87 /* Products */,
+				46820CAAD0E6464445CC4BCD /* Pods */,
+				2C5F16A261934DD78140CCE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF44ED511E5E9B5500BC1D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF44ED501E5E9B5500BC1D87 /* meowcam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF44ED521E5E9B5500BC1D87 /* meowcam */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C4EA11E724E0600B04F18 /* LaunchScreenKo.storyboard */,
+				CFBC4B361E6D3BC600BFFE8A /* RemoteConfigDafaults.plist */,
+				CFAC1E141E692C9C00236B58 /* GoogleService-Info.plist */,
+				CFAC1E111E6902E600236B58 /* InAppPurchase.h */,
+				CFAC1E121E6902E600236B58 /* InAppPurchase.m */,
+				CFAC1E0E1E69015700236B58 /* SettingController.h */,
+				CFAC1E0F1E69015700236B58 /* SettingController.m */,
+				CF44ED881E5EC94500BC1D87 /* resources */,
+				CF44ED561E5E9B5500BC1D87 /* AppDelegate.h */,
+				CF44ED571E5E9B5500BC1D87 /* AppDelegate.m */,
+				CF44ED591E5E9B5500BC1D87 /* ViewController.h */,
+				CF44ED5A1E5E9B5500BC1D87 /* ViewController.m */,
+				CF44ED5C1E5E9B5500BC1D87 /* Main.storyboard */,
+				CF44ED5F1E5E9B5500BC1D87 /* Assets.xcassets */,
+				CF44ED611E5E9B5500BC1D87 /* LaunchScreen.storyboard */,
+				CF44ED641E5E9B5500BC1D87 /* Info.plist */,
+				CF44ED531E5E9B5500BC1D87 /* Supporting Files */,
+				CF44ED9C1E5ED41400BC1D87 /* HBFocusUtils.h */,
+				CF44ED9D1E5ED45700BC1D87 /* HBFocusUtils.m */,
+				CF6502DE1E63FDE200239F35 /* HomeController.h */,
+				CF6502DF1E63FDE200239F35 /* HomeController.m */,
+				CF6502E11E6419D300239F35 /* PhotoController.h */,
+				CF6502E21E6419D300239F35 /* PhotoController.m */,
+				CF24A9141E67E8010019051F /* CameraFocusSquare.h */,
+				CF24A9151E67E81A0019051F /* CameraFocusSquare.m */,
+			);
+			path = meowcam;
+			sourceTree = "<group>";
+		};
+		CF44ED531E5E9B5500BC1D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF44ED541E5E9B5500BC1D87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF44ED881E5EC94500BC1D87 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF83EE001E6FEB0300468B69 /* sounds */,
+				CFAC1E161E694C3D00236B58 /* en.lproj */,
+				CFAC1E1B1E694C3D00236B58 /* ko.lproj */,
+				CF24A9171E680ED60019051F /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		CF83EE001E6FEB0300468B69 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF08505C1E70DF23003222B6 /* camera-shutter.mp3 */,
+				CF83EE011E6FEB0300468B69 /* hissing-01.mp3 */,
+				CF83EE021E6FEB0300468B69 /* meow-01.mp3 */,
+				CF83EE031E6FEB0300468B69 /* meow-02.mp3 */,
+				CF83EE041E6FEB0300468B69 /* meow-03.mp3 */,
+				CF83EE051E6FEB0300468B69 /* meow-04.mp3 */,
+				CF83EE061E6FEB0300468B69 /* meow-05.mp3 */,
+				CF83EE071E6FEB0300468B69 /* meow-06.mp3 */,
+				CF83EE081E6FEB0300468B69 /* meow-07.mp3 */,
+				CF83EE091E6FEB0300468B69 /* meow-08.mp3 */,
+				CF83EE0A1E6FEB0300468B69 /* meow-09.mp3 */,
+				CF83EE0B1E6FEB0300468B69 /* meow-10.mp3 */,
+				CF83EE0C1E6FEB0300468B69 /* meow-11.mp3 */,
+				CF83EE0D1E6FEB0300468B69 /* meow-12.mp3 */,
+				CF83EE0E1E6FEB0300468B69 /* meow-13.mp3 */,
+				CF83EE0F1E6FEB0300468B69 /* meow-14.mp3 */,
+				CF83EE101E6FEB0300468B69 /* meow-15.mp3 */,
+				CF83EE111E6FEB0300468B69 /* meow-16.mp3 */,
+				CF83EE121E6FEB0300468B69 /* meow-17.mp3 */,
+				CF83EE131E6FEB0300468B69 /* meow-18.mp3 */,
+				CF83EE141E6FEB0300468B69 /* meow-19.mp3 */,
+				CF83EE151E6FEB0300468B69 /* meow-20.mp3 */,
+				CF83EE161E6FEB0300468B69 /* meow-21.mp3 */,
+				CF83EE171E6FEB0300468B69 /* meow-22.mp3 */,
+				CF83EE181E6FEB0300468B69 /* meow-23.mp3 */,
+				CF83EE191E6FEB0300468B69 /* meow-24.mp3 */,
+				CF83EE1A1E6FEB0300468B69 /* meow-25.mp3 */,
+				CF83EE1B1E6FEB0300468B69 /* meow-26.mp3 */,
+				CF83EE1C1E6FEB0300468B69 /* meow-27.mp3 */,
+				CF83EE1D1E6FEB0300468B69 /* meow-28.mp3 */,
+				CF83EE1E1E6FEB0300468B69 /* meow-29.mp3 */,
+				CF83EE1F1E6FEB0300468B69 /* purr-01.mp3 */,
+				CF83EE201E6FEB0300468B69 /* purr-02.mp3 */,
+				CF83EE211E6FEB0300468B69 /* purr-03.mp3 */,
+				CF83EE221E6FEB0300468B69 /* purr-04.mp3 */,
+				CF83EE231E6FEB0300468B69 /* purr-05.mp3 */,
+				CF83EE241E6FEB0300468B69 /* purr-06.mp3 */,
+				CF83EE251E6FEB0300468B69 /* purr-07.mp3 */,
+				CF83EE261E6FEB0300468B69 /* song-01.mp3 */,
+				CF83EE271E6FEB0300468B69 /* song-02.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		CFAC1E161E694C3D00236B58 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC1E171E694C3D00236B58 /* InfoPlist.strings */,
+				CFAC1E191E694C3D00236B58 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		CFAC1E1B1E694C3D00236B58 /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC1E1C1E694C3D00236B58 /* InfoPlist.strings */,
+				CFAC1E1E1E694C3D00236B58 /* Localizable.strings */,
+			);
+			path = ko.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF44ED4F1E5E9B5500BC1D87 /* meowcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF44ED671E5E9B5500BC1D87 /* Build configuration list for PBXNativeTarget "meowcam" */;
+			buildPhases = (
+				A34E2FB541EB183FBDCC8459 /* [CP] Check Pods Manifest.lock */,
+				CF44ED4C1E5E9B5500BC1D87 /* Sources */,
+				CF44ED4D1E5E9B5500BC1D87 /* Frameworks */,
+				CF44ED4E1E5E9B5500BC1D87 /* Resources */,
+				869500DD91F1BBA11AE06E81 /* [CP] Embed Pods Frameworks */,
+				67E9E87178CCB4749484CDFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meowcam;
+			productName = meowcam;
+			productReference = CF44ED501E5E9B5500BC1D87 /* meowcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF44ED481E5E9B5500BC1D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = neosave;
+				TargetAttributes = {
+					CF44ED4F1E5E9B5500BC1D87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MGV3FN4E6U;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF44ED4B1E5E9B5500BC1D87 /* Build configuration list for PBXProject "meowcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = CF44ED471E5E9B5500BC1D87;
+			productRefGroup = CF44ED511E5E9B5500BC1D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF44ED4F1E5E9B5500BC1D87 /* meowcam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF44ED4E1E5E9B5500BC1D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24A9491E680ED60019051F /* btn-shot@2x.png in Resources */,
+				CF5C4E9F1E724A0300B04F18 /* logo@2x.png in Resources */,
+				CF83EE481E6FEB0300468B69 /* purr-03.mp3 in Resources */,
+				CF83EE4D1E6FEB0300468B69 /* song-01.mp3 in Resources */,
+				CF83EE471E6FEB0300468B69 /* purr-02.mp3 in Resources */,
+				CF24A9371E680ED60019051F /* btn-change@2x.png in Resources */,
+				CF24A9431E680ED60019051F /* btn-prev@2x.png in Resources */,
+				CF44ED631E5E9B5500BC1D87 /* LaunchScreen.storyboard in Resources */,
+				CF83EE461E6FEB0300468B69 /* purr-01.mp3 in Resources */,
+				CFAC1E0D1E68FCE100236B58 /* btn-camera.png in Resources */,
+				CF24A93C1E680ED60019051F /* btn-pause@1x.png in Resources */,
+				CFBC4B371E6D3BC600BFFE8A /* RemoteConfigDafaults.plist in Resources */,
+				CF24A93D1E680ED60019051F /* btn-pause@2x.png in Resources */,
+				CF83EE3D1E6FEB0300468B69 /* meow-21.mp3 in Resources */,
+				CF83EE2B1E6FEB0300468B69 /* meow-03.mp3 in Resources */,
+				CF24A9391E680ED60019051F /* btn-next@1x.png in Resources */,
+				CF83EE491E6FEB0300468B69 /* purr-04.mp3 in Resources */,
+				CF24A9421E680ED60019051F /* btn-prev@1x.png in Resources */,
+				CF83EE4C1E6FEB0300468B69 /* purr-07.mp3 in Resources */,
+				CF83EE371E6FEB0300468B69 /* meow-15.mp3 in Resources */,
+				CF83EE341E6FEB0300468B69 /* meow-12.mp3 in Resources */,
+				CF08505D1E70DF23003222B6 /* camera-shutter.mp3 in Resources */,
+				CFAC1E231E694C3D00236B58 /* Localizable.strings in Resources */,
+				CF83EE361E6FEB0300468B69 /* meow-14.mp3 in Resources */,
+				CF83EE2F1E6FEB0300468B69 /* meow-07.mp3 in Resources */,
+				CF5C4EA31E724E0600B04F18 /* LaunchScreenKo.storyboard in Resources */,
+				CF83EE301E6FEB0300468B69 /* meow-08.mp3 in Resources */,
+				CF5C4EA01E724A0300B04F18 /* logo@3x.png in Resources */,
+				CF83EE3E1E6FEB0300468B69 /* meow-22.mp3 in Resources */,
+				CF83EE2E1E6FEB0300468B69 /* meow-06.mp3 in Resources */,
+				CF24A93F1E680ED60019051F /* btn-play@1x.png in Resources */,
+				CF83EE391E6FEB0300468B69 /* meow-17.mp3 in Resources */,
+				CF83EE431E6FEB0300468B69 /* meow-27.mp3 in Resources */,
+				CF24A9381E680ED60019051F /* btn-change@3x.png in Resources */,
+				CF83EE441E6FEB0300468B69 /* meow-28.mp3 in Resources */,
+				CF24A9411E680ED60019051F /* btn-play@3x.png in Resources */,
+				CF83EE3C1E6FEB0300468B69 /* meow-20.mp3 in Resources */,
+				CF24A93A1E680ED60019051F /* btn-next@2x.png in Resources */,
+				CF83EE4E1E6FEB0300468B69 /* song-02.mp3 in Resources */,
+				CFAC1E151E692C9C00236B58 /* GoogleService-Info.plist in Resources */,
+				CF83EE351E6FEB0300468B69 /* meow-13.mp3 in Resources */,
+				CF24A9471E680ED60019051F /* btn-setting@3x.png in Resources */,
+				CF83EE4A1E6FEB0300468B69 /* purr-05.mp3 in Resources */,
+				CF83EE4B1E6FEB0300468B69 /* purr-06.mp3 in Resources */,
+				CF24A9341E680ED60019051F /* btn-camera@2x.png in Resources */,
+				CF24A93E1E680ED60019051F /* btn-pause@3x.png in Resources */,
+				CF24A93B1E680ED60019051F /* btn-next@3x.png in Resources */,
+				CF5C4E9E1E724A0300B04F18 /* logo.png in Resources */,
+				CF83EE2C1E6FEB0300468B69 /* meow-04.mp3 in Resources */,
+				CF83EE3F1E6FEB0300468B69 /* meow-23.mp3 in Resources */,
+				CFAC1E221E694C3D00236B58 /* InfoPlist.strings in Resources */,
+				CF83EE291E6FEB0300468B69 /* meow-01.mp3 in Resources */,
+				CF83EE311E6FEB0300468B69 /* meow-09.mp3 in Resources */,
+				CF24A9361E680ED60019051F /* btn-change.png in Resources */,
+				CF83EE401E6FEB0300468B69 /* meow-24.mp3 in Resources */,
+				CF24A9351E680ED60019051F /* btn-camera@3x.png in Resources */,
+				CF83EE331E6FEB0300468B69 /* meow-11.mp3 in Resources */,
+				CF83EE381E6FEB0300468B69 /* meow-16.mp3 in Resources */,
+				CFAC1E201E694C3D00236B58 /* InfoPlist.strings in Resources */,
+				CF83EE3B1E6FEB0300468B69 /* meow-19.mp3 in Resources */,
+				CF44ED601E5E9B5500BC1D87 /* Assets.xcassets in Resources */,
+				CFAC1E211E694C3D00236B58 /* Localizable.strings in Resources */,
+				CF24A9441E680ED60019051F /* btn-prev@3x.png in Resources */,
+				CF24A94A1E680ED60019051F /* btn-shot@3x.png in Resources */,
+				CF44ED5E1E5E9B5500BC1D87 /* Main.storyboard in Resources */,
+				CF24A9401E680ED60019051F /* btn-play@2x.png in Resources */,
+				CF83EE421E6FEB0300468B69 /* meow-26.mp3 in Resources */,
+				CF83EE3A1E6FEB0300468B69 /* meow-18.mp3 in Resources */,
+				CF24A9481E680ED60019051F /* btn-shot.png in Resources */,
+				CF83EE321E6FEB0300468B69 /* meow-10.mp3 in Resources */,
+				CF83EE451E6FEB0300468B69 /* meow-29.mp3 in Resources */,
+				CF83EE281E6FEB0300468B69 /* hissing-01.mp3 in Resources */,
+				CF83EE411E6FEB0300468B69 /* meow-25.mp3 in Resources */,
+				CF24A9461E680ED60019051F /* btn-setting@2x.png in Resources */,
+				CF24A9451E680ED60019051F /* btn-setting.png in Resources */,
+				CF83EE2A1E6FEB0300468B69 /* meow-02.mp3 in Resources */,
+				CF83EE2D1E6FEB0300468B69 /* meow-05.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67E9E87178CCB4749484CDFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meowcam/Pods-meowcam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869500DD91F1BBA11AE06E81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meowcam/Pods-meowcam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34E2FB541EB183FBDCC8459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF44ED4C1E5E9B5500BC1D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAC1E101E69015700236B58 /* SettingController.m in Sources */,
+				CF24A9161E67E81A0019051F /* CameraFocusSquare.m in Sources */,
+				CF44ED9E1E5ED45700BC1D87 /* HBFocusUtils.m in Sources */,
+				CF44ED5B1E5E9B5500BC1D87 /* ViewController.m in Sources */,
+				CF6502E31E6419D300239F35 /* PhotoController.m in Sources */,
+				CF44ED581E5E9B5500BC1D87 /* AppDelegate.m in Sources */,
+				CFAC1E131E6902E600236B58 /* InAppPurchase.m in Sources */,
+				CF6502E01E63FDE200239F35 /* HomeController.m in Sources */,
+				CF44ED551E5E9B5500BC1D87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF44ED5C1E5E9B5500BC1D87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF44ED5D1E5E9B5500BC1D87 /* Base */,
+				CF83EE541E6FF01E00468B69 /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF44ED611E5E9B5500BC1D87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF44ED621E5E9B5500BC1D87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF5C4EA11E724E0600B04F18 /* LaunchScreenKo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5C4EA21E724E0600B04F18 /* Base */,
+			);
+			name = LaunchScreenKo.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAC1E171E694C3D00236B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC1E181E694C3D00236B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFAC1E191E694C3D00236B58 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC1E1A1E694C3D00236B58 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CFAC1E1C1E694C3D00236B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC1E1D1E694C3D00236B58 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFAC1E1E1E694C3D00236B58 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAC1E1F1E694C3D00236B58 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF44ED651E5E9B5500BC1D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF44ED661E5E9B5500BC1D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF44ED681E5E9B5500BC1D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BFA9402A954FC2C709B677 /* Pods-meowcam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGV3FN4E6U;
+				GCC_PREFIX_HEADER = "meowcam-Prefix.pch";
+				INFOPLIST_FILE = meowcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.neosave.meowcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF44ED691E5E9B5500BC1D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D76A056DEE593C14911293 /* Pods-meowcam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGV3FN4E6U;
+				GCC_PREFIX_HEADER = "meowcam-Prefix.pch";
+				INFOPLIST_FILE = meowcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.neosave.meowcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF44ED4B1E5E9B5500BC1D87 /* Build configuration list for PBXProject "meowcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44ED651E5E9B5500BC1D87 /* Debug */,
+				CF44ED661E5E9B5500BC1D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF44ED671E5E9B5500BC1D87 /* Build configuration list for PBXNativeTarget "meowcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44ED681E5E9B5500BC1D87 /* Debug */,
+				CF44ED691E5E9B5500BC1D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF44ED481E5E9B5500BC1D87 /* Project object */;
+}

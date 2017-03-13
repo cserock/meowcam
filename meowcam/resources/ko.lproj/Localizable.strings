@@ -1,0 +1,93 @@
+/*
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ */
+
+"MeowCam" = "야옹카메라";
+"meow-01" = "야옹 #1";
+"meow-02" = "야옹 #2";
+"meow-03" = "야옹 #3";
+"meow-04" = "야옹 #4";
+"meow-05" = "야옹 #5";
+"meow-06" = "야옹 #6";
+"meow-07" = "야옹 #7";
+"meow-08" = "야옹 #8";
+"meow-09" = "야옹 #9";
+"meow-10" = "야옹 #10";
+"meow-11" = "야옹 #11";
+"meow-12" = "야옹 #12";
+"meow-13" = "야옹 #13";
+"meow-14" = "야옹 #14";
+"meow-15" = "야옹 #15";
+"meow-16" = "야옹 #16";
+"meow-17" = "야옹 #17";
+"meow-18" = "야옹 #18";
+"meow-19" = "야옹 #19";
+"meow-20" = "야옹 #20";
+"meow-21" = "야옹 #21";
+"meow-22" = "야옹 #22";
+"meow-23" = "야옹 #23";
+"meow-24" = "야옹 #24";
+"meow-25" = "야옹 #25";
+"meow-26" = "야옹 #26";
+"meow-27" = "야옹 #27";
+"meow-28" = "야옹 #28";
+"meow-29" = "야옹 #29";
+"purr-01" = "그르릉 #1";
+"purr-02" = "그르릉 #2";
+"purr-03" = "그르릉 #3";
+"purr-04" = "그르릉 #4";
+"purr-05" = "그르릉 #5";
+"purr-06" = "그르릉 #6";
+"purr-07" = "그르릉 #7";
+"song-01" = "고양이가 좋아하는 노래 #1";
+"song-02" = "고양이가 좋아하는 노래 #2";
+"Check for Update" = "업데이트 알림";
+"Review" = "리뷰하기";
+"Later" = "다음에";
+"Update" = "업데이트";
+"Confirm" = "확인";
+"Please update to the latest version." = "최신 버전으로 업데이트 해주세요.";
+"Download the Meow Camera" = "'야옹카메라'를 다운로드 하세요.";
+"Reviews" = "평가하기";
+"Please review this app in the Appstore." = "앱스토어에서 리뷰를 남겨주세요.";
+"Temporary failure" = "일시적인 서버 연결 에러";
+"Please use after a while." = "잠시 후에 이용해 주세요.";
+"Feedback" = "피드백";
+"Camera Permission" = "카메라 권한";
+"Please allow Camera access for capturing.\nSettings-Privacy-Camera" = "촬영을 위해 카메라 권한이 필요합니다.\n설정-개인 정보 보호-카메라";
+"Done" = "확인";
+"Upgrade" = "업그레이드 안내";
+"Buy" = "구매하기";
+"Please buy upgrade pack and use without Ads." = "업그레이드 팩을 구입하신 후\n광고 없이 편하게 이용하세요.";
+"Cancel" = "취소";
+"Later" = "다음에";
+"Check Connection" = "인터넷 연결 확인";
+"Stop" = "정지";
+"Checking..." = "체크 중...";
+"Support & Feedback" = "문의 & 피드백";
+"don't delete following information for supporting." = "빠른 지원을 위해 아래 내용을 지우지 마세요.";
+"Thank you for your feedback." = "의견을 주셔서 감사합니다.";
+"failed sending feeback" = "failed sending feeback";
+"Payment Error" = "결제 에러";
+"You are not authorized to purchase from AppStore." = "앱스토어 결제 권한이 없습니다.";
+"There isn't exist receipt." = "결제 내역이 없습니다.";
+"Retore is completed.\nThank you." = "이전 구매 복원이 완료되었습니다.\n감사합니다.";
+"Payment" = "결제";
+"Not updated" = "변경사항 확인";
+"Complete" = "완료";
+"Selected photo sent." = "선택한 사진이 전송되었습니다.";

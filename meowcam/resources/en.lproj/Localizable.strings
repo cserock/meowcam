@@ -1,0 +1,93 @@
+/*
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ */
+
+"MeowCam" = "MeowCam";
+"meow-01" = "Meow #1";
+"meow-02" = "Meow #2";
+"meow-03" = "Meow #3";
+"meow-04" = "Meow #4";
+"meow-05" = "Meow #5";
+"meow-06" = "Meow #6";
+"meow-07" = "Meow #7";
+"meow-08" = "Meow #8";
+"meow-09" = "Meow #9";
+"meow-10" = "Meow #10";
+"meow-11" = "Meow #11";
+"meow-12" = "Meow #12";
+"meow-13" = "Meow #13";
+"meow-14" = "Meow #14";
+"meow-15" = "Meow #15";
+"meow-16" = "Meow #16";
+"meow-17" = "Meow #17";
+"meow-18" = "Meow #18";
+"meow-19" = "Meow #19";
+"meow-20" = "Meow #20";
+"meow-21" = "Meow #21";
+"meow-22" = "Meow #22";
+"meow-23" = "Meow #23";
+"meow-24" = "Meow #24";
+"meow-25" = "Meow #25";
+"meow-26" = "Meow #26";
+"meow-27" = "Meow #27";
+"meow-28" = "Meow #28";
+"meow-29" = "Meow #29";
+"purr-01" = "Purr #1";
+"purr-02" = "Purr #2";
+"purr-03" = "Purr #3";
+"purr-04" = "Purr #4";
+"purr-05" = "Purr #5";
+"purr-06" = "Purr #6";
+"song-01" = "Song That Cat likes #1";
+"song-02" = "Song That Cat likes #2";
+
+"Download the Meow Camera" = "Download the Meow Camera";
+"Check for Update" = "Check for Update";
+"Review" = "Review";
+"Later" = "Later";
+"Update" = "Update";
+"Confirm" = "Confirm";
+"Please update to the latest version." = "Please update to the latest version.";
+"Reviews" = "Reviews";
+"Please review this app in the Appstore." = "Please review this app in the Appstore.";
+"Temporary failure" = "Temporary failure";
+"Please use after a while." = "Please use after a while.";
+"Feedback" = "Feedback";
+"Camera Permission" = "Camera Permission";
+"Please allow Camera access for capturing.\nSettings-Privacy-Camera" = "Please allow Camera access for capturing.\nSettings-Privacy-Camera";
+"Done" = "Done";
+"Upgrade" = "Upgrade";
+"Buy" = "Buy";
+"Please buy upgrade pack and use without Ads." = "Please buy upgrade pack and use without Ads.";
+"Cancel" = "Cancel";
+"Later" = "Later";
+"Check Connection" = "Check Connection";
+"Stop" = "Stop";
+"Checking..." = "Checking...";
+"Support & Feedback" = "Support & Feedback";
+"don't delete following information for supporting." = "don't delete following information for supporting.";
+"Thank you for your feedback." = "Thank you for your feedback.";
+"failed sending feeback" = "failed sending feeback";
+"Payment Error" = "Payment Error";
+"You are not authorized to purchase from AppStore." = "You are not authorized to purchase from AppStore.";
+"There isn't exist receipt." = "There isn't exist receipt.";
+"Retore is completed.\nThank you." = "Retore is completed.\nThank you.";
+"Payment" = "Payment";
+"Not updated" = "Not updated";
+"Complete" = "Complete";
+"Selected photo sent." = "Selected photo sent.";

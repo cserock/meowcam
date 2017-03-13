@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>210985280918-40k7ir27pji64ts8h9fqg92huofoqjl6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.210985280918-40k7ir27pji64ts8h9fqg92huofoqjl6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB3jDcrrwNRPkYdzacftmhfFZHX6oUn1s4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>210985280918</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.neosave.meowcam</string>
+	<key>PROJECT_ID</key>
+	<string>neosave-21c5b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>neosave-21c5b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:210985280918:ios:661842c2653039fb</string>
+	<key>DATABASE_URL</key>
+	<string>https://neosave-21c5b.firebaseio.com</string>
+</dict>
+</plist>
