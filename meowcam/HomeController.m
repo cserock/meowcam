@@ -9,11 +9,14 @@
 #import "HomeController.h"
 #import "PhotoController.h"
 #import "HBFocusUtils.h"
+#import "ImageUtils.h"
 #import "GPUImageView.h"
 #import "CameraFocusSquare.h"
 @import Firebase;
 
-#define DEFAULT_BURST_COUNT 8
+#define DEFAULT_BURST_COUNT 10
+
+#define IS_SAMPLE NO
 
 @interface HomeController () <UIAlertViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UITextViewDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
 
@@ -827,6 +830,7 @@ NSString *const kIsUpdateConfigKey = @"is_update";
 - (IBAction)takePhoto:(id)sender {
     NSLog(@"takePhoto");
     
+    [self stop];
     [_btnTakePhoto setEnabled:NO];
     
     _isCapturing = YES;
@@ -874,7 +878,8 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     if(_isCapturing){
         
         if(_iFrameCount == 0){
-            [audioPlayer stop];
+//            [audioPlayer stop];
+//            [self stop];
             
             NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"camera-shutter" ofType: @"mp3"];
             NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
@@ -912,57 +917,27 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     UIImage *image =     [UIImage imageWithCGImage: cgImage ];
     CGImageRelease( cgImage );
     
+    if(IS_SAMPLE){
+        image = [UIImage imageNamed:@"jj_sample"];
+    }
+    
     NSLog(@"w: %f, h:%f", image.size.width, image.size.height);
     
-    UIImage *cropeddImage = [self imageByCroppingImage:image toSize: CGSizeMake(lroundf(image.size.height*1.33333), image.size.height)];
+    UIImage *cropeddImage = [ImageUtils imageByCroppingImage:image toSize: CGSizeMake(lroundf(image.size.height*1.33333), image.size.height)];
     
     NSLog(@"w: %f, h:%f", cropeddImage.size.width, cropeddImage.size.height);
     
-    
+   
     UIImage *rotatedImage = [[UIImage alloc] initWithCGImage:cropeddImage.CGImage
                                                        scale: 1.0
                                                  orientation: UIImageOrientationRight];
     [_photos addObject: rotatedImage];
     
+//    [_photos addObject: cropeddImage];
 }
 
 
 
-- (UIImage *)imageByCroppingImage:(UIImage *)image toSize:(CGSize)size
-{
-    double newCropWidth, newCropHeight;
-    
-    //=== To crop more efficently =====//
-    if(image.size.width < image.size.height){
-        if (image.size.width < size.width) {
-            newCropWidth = size.width;
-        }
-        else {
-            newCropWidth = image.size.width;
-        }
-        newCropHeight = (newCropWidth * size.height)/size.width;
-    } else {
-        if (image.size.height < size.height) {
-            newCropHeight = size.height;
-        }
-        else {
-            newCropHeight = image.size.height;
-        }
-        newCropWidth = (newCropHeight * size.width)/size.height;
-    }
-    //==============================//
-    
-    double x = image.size.width/2.0 - newCropWidth/2.0;
-    double y = image.size.height/2.0 - newCropHeight/2.0;
-    
-    CGRect cropRect = CGRectMake(x, y, newCropWidth, newCropHeight);
-    CGImageRef imageRef = CGImageCreateWithImageInRect([image CGImage], cropRect);
-    
-    UIImage *cropped = [UIImage imageWithCGImage:imageRef];
-    CGImageRelease(imageRef);
-    
-    return cropped;
-}
 
 
 - (void) move {
