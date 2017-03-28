@@ -1,0 +1,94 @@
+/*
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ */
+
+"MeowCam" = "ニャ－ンカメラ";
+"meow-01" = "ニャ－ン #1";
+"meow-02" = "ニャ－ン #2";
+"meow-03" = "ニャ－ン #3";
+"meow-04" = "ニャ－ン #4";
+"meow-05" = "ニャ－ン #5";
+"meow-06" = "ニャ－ン #6";
+"meow-07" = "ニャ－ン #7";
+"meow-08" = "ニャ－ン #8";
+"meow-09" = "ニャ－ン #9";
+"meow-10" = "ニャ－ン #10";
+"meow-11" = "ニャ－ン #11";
+"meow-12" = "ニャ－ン #12";
+"meow-13" = "ニャ－ン #13";
+"meow-14" = "ニャ－ン #14";
+"meow-15" = "ニャ－ン #15";
+"meow-16" = "ニャ－ン #16";
+"meow-17" = "ニャ－ン #17";
+"meow-18" = "ニャ－ン #18";
+"meow-19" = "ニャ－ン #19";
+"meow-20" = "ニャ－ン #20";
+"meow-21" = "ニャ－ン #21";
+"meow-22" = "ニャ－ン #22";
+"meow-23" = "ニャ－ン #23";
+"meow-24" = "ニャ－ン #24";
+"meow-25" = "ニャ－ン #25";
+"meow-26" = "ニャ－ン #26";
+"meow-27" = "ニャ－ン #27";
+"meow-28" = "ニャ－ン #28";
+"meow-29" = "ニャ－ン #29";
+"purr-01" = "ゴロゴロ #1";
+"purr-02" = "ゴロゴロ #2";
+"purr-03" = "ゴロゴロ #3";
+"purr-04" = "ゴロゴロ #4";
+"purr-05" = "ゴロゴロ #5";
+"purr-06" = "ゴロゴロ #6";
+"purr-07" = "ゴロゴロ #7";
+"song-01" = "猫が好きな歌 #1";
+"song-02" = "猫が好きな歌 #2";
+
+"Download the Meow Camera" = "ニャ－ンカメラをダウンロード。";
+"Check for Update" = "更新を確認";
+"Review" = "レビュー";
+"Later" = "後で";
+"Update" = "更新";
+"Confirm" = "確認する";
+"Please update to the latest version." = "最新のバージョンに更新してください。";
+"Reviews" = "レビュー";
+"Please review this app in the Appstore." = "Appstoreでこのアプリを確認してください。";
+"Temporary failure" = "一時的な障害";
+"Please use after a while." = "しばらくしてからご使用ください。";
+"Feedback" = "フィードバック";
+"Camera Permission" = "カメラの許可";
+"Please allow Camera access for capturing.\nSettings-Privacy-Camera" = "キャプチャのためにカメラへのアクセスを許可してください。\n設定-プライバシー-カメラ";
+"Done" = "完了";
+"Upgrade" = "アップグレード";
+"Buy" = "購入";
+"Please buy upgrade pack and use without Ads." = "アップグレードパックを購入し、広告なしで使用してください。";
+"Cancel" = "キャンセル";
+"Later" = "後で";
+"Check Connection" = "接続を確認する";
+"Stop" = "やめる";
+"Checking..." = "点検。。。";
+"Support & Feedback" = "サポート & フィードバック";
+"don't delete following information for supporting." = "サポートするために以下の情報を削除しないでください。";
+"Thank you for your feedback." = "ご意見ありがとうございます。";
+"failed sending feeback" = "フィードバックの送信に失敗しました。";
+"Payment Error" = "支払いエラー";
+"You are not authorized to purchase from AppStore." = "あなたはAppStoreから購入する権限がありません。";
+"There isn't exist receipt." = "領収書はありません。";
+"Retore is completed.\nThank you." = "復元が完了しました。\nありがとうございました。";
+"Payment" = "支払い";
+"Not updated" = "更新されない";
+"Complete" = "コンプリート";
+"Selected photo sent." = "選択した写真が送信されました。";

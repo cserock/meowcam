@@ -21,9 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>야옹카메라는 카메라 권한이 필요합니다.</string>
+	<string>Please allow camera access.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>사진을 저장하려면 앨범 권한이 필요합니다.</string>
+	<string>Please allow photo library access.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -411,13 +411,7 @@
     watermarkedImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    
-    
-    NSLog(@"filetered2");
-    
     NSArray *objectsToShare = @[watermarkedImage];
-    
-    NSLog(@"filetered3");
     
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
     
@@ -528,7 +522,7 @@
         
         UIFont * customFont = [UIFont systemFontOfSize:10.0];
         
-        UILabel *fromLabel = [[UILabel alloc]initWithFrame:CGRectMake(2, 2, 20, 10)];
+        UILabel *fromLabel = [[UILabel alloc]initWithFrame:CGRectMake(4, 4, 20, 10)];
         fromLabel.text = [NSString stringWithFormat:@"#%d", i+1];;
         fromLabel.font = customFont;
         fromLabel.numberOfLines = 1;
@@ -555,7 +549,7 @@
         
         
         if(i == 0){
-            [[btnThumbImage layer] setBorderWidth:2.0f];
+            [[btnThumbImage layer] setBorderWidth:3.0f];
         } else {
             [[btnThumbImage layer] setBorderWidth:0.0f];
         }
@@ -592,7 +586,7 @@
     }
     
     UIButton* button = (UIButton*)sender;
-    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderWidth:3.0f];
     NSLog(@"%ld", button.tag);
     _primaryImageView.image = (UIImage*) [_photos objectAtIndex:(button.tag - 100)];
     

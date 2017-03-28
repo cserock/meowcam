@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  QuestRunner
+
+  Created by Rock Kang on 13. 10. 11..
+
+*/
+
+CFBundleDisplayName = "ニャ－ンカメラ";
+CFBundleName = "ニャ－ンカメラ";
+UILaunchStoryboardName = "LaunchScreenJa";
