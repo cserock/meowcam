@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "1m3-wm-OzV"; */
+"1m3-wm-OzV.text" = "フィードバック";
+
+/* Class = "UIButton"; normalTitle = "Upgrade"; ObjectID = "5eV-rG-5dn"; */
+"5eV-rG-5dn.normalTitle" = "アップグレード";
+
+/* Class = "UILabel"; text = "Auto Play"; ObjectID = "60u-bc-war"; */
+"60u-bc-war.text" = "自動再生";
+
+/* Class = "UIButton"; normalTitle = "A"; ObjectID = "6fP-vm-rEi"; */
+"6fP-vm-rEi.normalTitle" = "A";
+
+/* Class = "UIButton"; normalTitle = "M"; ObjectID = "9P9-YC-tsF"; */
+"9P9-YC-tsF.normalTitle" = "M";
+
+/* Class = "UITextField"; text = "Sound Name"; ObjectID = "AKZ-ab-sPE"; */
+"AKZ-ab-sPE.text" = "サウンド名";
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "CIG-Hx-qXm"; */
+"CIG-Hx-qXm.title" = "設定";
+
+/* Class = "UILabel"; text = "Buy"; ObjectID = "HXB-Bh-6Gk"; */
+"HXB-Bh-6Gk.text" = "購入";
+
+/* Class = "UILabel"; text = "Restore"; ObjectID = "Qmf-rN-S15"; */
+"Qmf-rN-S15.text" = "リストア";
+
+/* Class = "UIButton"; normalTitle = "N"; ObjectID = "RDn-7v-nwI"; */
+"RDn-7v-nwI.normalTitle" = "N";
+
+/* Class = "UIButton"; normalTitle = "G"; ObjectID = "RMy-bA-ciw"; */
+"RMy-bA-ciw.normalTitle" = "G";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "RiK-Tk-P86"; */
+"RiK-Tk-P86.text" = "レビュー";
+
+/* Class = "UINavigationItem"; title = "Photo Select"; ObjectID = "SNT-uE-pN8"; */
+"SNT-uE-pN8.title" = "写真の選択";
+
+/* Class = "UITableViewSection"; headerTitle = "SUPPORT"; ObjectID = "YER-cx-OhX"; */
+"YER-cx-OhX.headerTitle" = "サポート";
+
+/* Class = "UIButton"; normalTitle = "V"; ObjectID = "a1H-lR-C5h"; */
+"a1H-lR-C5h.normalTitle" = "V";
+
+/* Class = "UITableViewSection"; headerTitle = "Sound"; ObjectID = "bsP-qH-Y1P"; */
+"bsP-qH-Y1P.headerTitle" = "音";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "gBO-vG-p6h"; */
+"gBO-vG-p6h.normalTitle" = "選択";
+
+/* Class = "UIButton"; normalTitle = "O"; ObjectID = "ko7-r3-eTQ"; */
+"ko7-r3-eTQ.normalTitle" = "O";
+
+/* Class = "UITableViewSection"; headerTitle = "Upgrade : No Advertising"; ObjectID = "mjj-Zo-JcT"; */
+"mjj-Zo-JcT.headerTitle" = "アップグレード：広告なし";
+
+/* Class = "UIButton"; normalTitle = "WB"; ObjectID = "yqe-hR-yMa"; */
+"yqe-hR-yMa.normalTitle" = "WB";
+
+/* Class = "UILabel"; text = "Invite Friends"; ObjectID = "z8f-Ix-7yl"; */
+"z8f-Ix-7yl.text" = "友達を招待";

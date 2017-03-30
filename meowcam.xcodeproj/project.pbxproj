@@ -48,6 +48,9 @@
 		CF5C4EA31E724E0600B04F18 /* LaunchScreenKo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5C4EA11E724E0600B04F18 /* LaunchScreenKo.storyboard */; };
 		CF6502E01E63FDE200239F35 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6502DF1E63FDE200239F35 /* HomeController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF6502E31E6419D300239F35 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6502E21E6419D300239F35 /* PhotoController.m */; };
+		CF829EDF1E8A60D0000720D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF829EDB1E8A60D0000720D4 /* InfoPlist.strings */; };
+		CF829EE01E8A60D0000720D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF829EDD1E8A60D0000720D4 /* Localizable.strings */; };
+		CF829EE31E8A60F4000720D4 /* LaunchScreenJa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF829EE11E8A60F4000720D4 /* LaunchScreenJa.storyboard */; };
 		CF83EE281E6FEB0300468B69 /* hissing-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE011E6FEB0300468B69 /* hissing-01.mp3 */; };
 		CF83EE291E6FEB0300468B69 /* meow-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE021E6FEB0300468B69 /* meow-01.mp3 */; };
 		CF83EE2A1E6FEB0300468B69 /* meow-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF83EE031E6FEB0300468B69 /* meow-02.mp3 */; };
@@ -154,6 +157,10 @@
 		CF6502DF1E63FDE200239F35 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		CF6502E11E6419D300239F35 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		CF6502E21E6419D300239F35 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		CF829ED81E8A5FBD000720D4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		CF829EDC1E8A60D0000720D4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CF829EDE1E8A60D0000720D4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		CF829EE21E8A60F4000720D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenJa.storyboard; sourceTree = "<group>"; };
 		CF83EE011E6FEB0300468B69 /* hissing-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hissing-01.mp3"; sourceTree = "<group>"; };
 		CF83EE021E6FEB0300468B69 /* meow-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-01.mp3"; sourceTree = "<group>"; };
 		CF83EE031E6FEB0300468B69 /* meow-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meow-02.mp3"; sourceTree = "<group>"; };
@@ -303,6 +310,7 @@
 		CF44ED521E5E9B5500BC1D87 /* meowcam */ = {
 			isa = PBXGroup;
 			children = (
+				CF829EE11E8A60F4000720D4 /* LaunchScreenJa.storyboard */,
 				CF5C4EA11E724E0600B04F18 /* LaunchScreenKo.storyboard */,
 				CFBC4B361E6D3BC600BFFE8A /* RemoteConfigDafaults.plist */,
 				CFAC1E141E692C9C00236B58 /* GoogleService-Info.plist */,
@@ -345,12 +353,22 @@
 		CF44ED881E5EC94500BC1D87 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF829EDA1E8A60D0000720D4 /* ja.lproj */,
 				CF83EE001E6FEB0300468B69 /* sounds */,
 				CFAC1E161E694C3D00236B58 /* en.lproj */,
 				CFAC1E1B1E694C3D00236B58 /* ko.lproj */,
 				CF24A9171E680ED60019051F /* images */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		CF829EDA1E8A60D0000720D4 /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CF829EDB1E8A60D0000720D4 /* InfoPlist.strings */,
+				CF829EDD1E8A60D0000720D4 /* Localizable.strings */,
+			);
+			path = ja.lproj;
 			sourceTree = "<group>";
 		};
 		CF83EE001E6FEB0300468B69 /* sounds */ = {
@@ -470,6 +488,7 @@
 				en,
 				Base,
 				ko,
+				ja,
 			);
 			mainGroup = CF44ED471E5E9B5500BC1D87;
 			productRefGroup = CF44ED511E5E9B5500BC1D87 /* Products */;
@@ -499,6 +518,7 @@
 				CF24A93C1E680ED60019051F /* btn-pause@1x.png in Resources */,
 				CFBC4B371E6D3BC600BFFE8A /* RemoteConfigDafaults.plist in Resources */,
 				CF24A93D1E680ED60019051F /* btn-pause@2x.png in Resources */,
+				CF829EDF1E8A60D0000720D4 /* InfoPlist.strings in Resources */,
 				CFE9B3B51E7D1F3C00CC3AB3 /* jj_sample.png in Resources */,
 				CF83EE3D1E6FEB0300468B69 /* meow-21.mp3 in Resources */,
 				CF83EE2B1E6FEB0300468B69 /* meow-03.mp3 in Resources */,
@@ -530,6 +550,7 @@
 				CF83EE351E6FEB0300468B69 /* meow-13.mp3 in Resources */,
 				CF24A9471E680ED60019051F /* btn-setting@3x.png in Resources */,
 				CF83EE4A1E6FEB0300468B69 /* purr-05.mp3 in Resources */,
+				CF829EE01E8A60D0000720D4 /* Localizable.strings in Resources */,
 				CF83EE4B1E6FEB0300468B69 /* purr-06.mp3 in Resources */,
 				CF24A9341E680ED60019051F /* btn-camera@2x.png in Resources */,
 				CF24A93E1E680ED60019051F /* btn-pause@3x.png in Resources */,
@@ -546,6 +567,7 @@
 				CF83EE331E6FEB0300468B69 /* meow-11.mp3 in Resources */,
 				CF83EE381E6FEB0300468B69 /* meow-16.mp3 in Resources */,
 				CFAC1E201E694C3D00236B58 /* InfoPlist.strings in Resources */,
+				CF829EE31E8A60F4000720D4 /* LaunchScreenJa.storyboard in Resources */,
 				CF83EE3B1E6FEB0300468B69 /* meow-19.mp3 in Resources */,
 				CF44ED601E5E9B5500BC1D87 /* Assets.xcassets in Resources */,
 				CFAC1E211E694C3D00236B58 /* Localizable.strings in Resources */,
@@ -643,6 +665,7 @@
 			children = (
 				CF44ED5D1E5E9B5500BC1D87 /* Base */,
 				CF83EE541E6FF01E00468B69 /* ko */,
+				CF829ED81E8A5FBD000720D4 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -661,6 +684,30 @@
 				CF5C4EA21E724E0600B04F18 /* Base */,
 			);
 			name = LaunchScreenKo.storyboard;
+			sourceTree = "<group>";
+		};
+		CF829EDB1E8A60D0000720D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF829EDC1E8A60D0000720D4 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF829EDD1E8A60D0000720D4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF829EDE1E8A60D0000720D4 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CF829EE11E8A60F4000720D4 /* LaunchScreenJa.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF829EE21E8A60F4000720D4 /* Base */,
+			);
+			name = LaunchScreenJa.storyboard;
 			sourceTree = "<group>";
 		};
 		CFAC1E171E694C3D00236B58 /* InfoPlist.strings */ = {
