@@ -162,8 +162,9 @@ NSString *const kIsUpdateConfigKey = @"is_update";
     _uid = @"";
     
     [[FIRAuth auth]
-     signInAnonymouslyWithCompletion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
+     signInAnonymouslyWithCompletion:^(FIRAuthDataResult * _Nullable authResult, NSError * _Nullable error) {
          // ...
+        FIRUser *user = authResult.user;
          _uid = user.uid;
          NSLog(@"signInAnonymouslyWithCompletion uid : @%@", user.uid);
          
