@@ -9,3 +9,6 @@
 CFBundleDisplayName = "야옹카메라";
 CFBundleName = "야옹카메라";
 UILaunchStoryboardName = "LaunchScreenKo";
+NSCameraUsageDescription = "야옹카메라는 카메라 권한이 필요합니다.";
+NSPhotoLibraryUsageDescription = "사진을 저장하려면 앨범 권한이 필요합니다.";
+NSPhotoLibraryAddUsageDescription = "사진을 저장하려면 앨범 권한이 필요합니다.";
