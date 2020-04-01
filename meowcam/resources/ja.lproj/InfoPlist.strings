@@ -9,3 +9,7 @@
 CFBundleDisplayName = "ニャ－ンカメラ";
 CFBundleName = "ニャ－ンカメラ";
 UILaunchStoryboardName = "LaunchScreenJa";
+NSCameraUsageDescription = "ニャ－ンカメラは猫の写真を撮るためにカメラにアクセスする必要があります。";
+NSPhotoLibraryUsageDescription = "ニャ－ンカメラは猫の写真を保存するために写真ライブラリにアクセスする必要があります。";
+NSPhotoLibraryAddUsageDescription = "ニャ－ンカメラは猫の写真を保存するために写真ライブラリにアクセスする必要があります。";
+

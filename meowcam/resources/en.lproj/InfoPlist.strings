@@ -9,6 +9,6 @@
 CFBundleDisplayName = "MeowCam";
 CFBundleName = "MeowCam";
 UILaunchStoryboardName = "LaunchScreen";
-NSCameraUsageDescription = "Please allow camera access.";
-NSPhotoLibraryUsageDescription = "Please allow photo library access.";
-NSPhotoLibraryAddUsageDescription = "Please allow photo library access.";
+NSCameraUsageDescription = "MeowCam requires to access camera for taking cat's picture.";
+NSPhotoLibraryUsageDescription = "MeowCam requires to access photo library for saving cat's picture.";
+NSPhotoLibraryAddUsageDescription = "MeowCam requires to access photo library for saving cat's picture.";
